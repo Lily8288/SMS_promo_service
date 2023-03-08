@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2023 Lilith Acacia Sant, Sage Jacqueline Belknap
+Copyright (c) 2023 Lilith Acacia Sant, Andres Dominguez, Sage Jacqueline Belknap
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
