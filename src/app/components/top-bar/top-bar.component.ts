@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import {SpsService} from "../../services/sps.service";
+
 
 @Component({
   selector: 'app-top-bar',
@@ -7,7 +9,7 @@ import { Component } from '@angular/core';
 })
 export class TopBarComponent {
 
-  constructor() {
+  constructor(private spsService: SpsService) {
     
   }
 
