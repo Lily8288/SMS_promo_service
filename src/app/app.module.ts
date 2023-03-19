@@ -10,7 +10,6 @@ import { TopBarComponent } from './components/top-bar/top-bar.component';
 @NgModule({
   declarations: [
     AppComponent,
-    TopBarComponent,
   ],
   imports: [
     BrowserModule,

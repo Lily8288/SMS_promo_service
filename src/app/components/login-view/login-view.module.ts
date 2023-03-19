@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { LoginViewComponent } from './login-view.component';
-import {MatButtonModule} from "@angular/material/button";
+import { MatButtonModule } from "@angular/material/button";
 
 
 
@@ -9,9 +9,9 @@ import {MatButtonModule} from "@angular/material/button";
   declarations: [
     LoginViewComponent
   ],
-    imports: [
-        CommonModule,
-        MatButtonModule
-    ]
+  imports: [
+    CommonModule,
+    MatButtonModule
+  ]
 })
 export class LoginViewModule { }
