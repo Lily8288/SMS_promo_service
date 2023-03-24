@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { HomeViewComponent } from './home-view.component';
-import {MatButtonModule} from "@angular/material/button";
+import { MatButtonModule } from "@angular/material/button";
 
 
 
@@ -9,9 +9,9 @@ import {MatButtonModule} from "@angular/material/button";
   declarations: [
     HomeViewComponent
   ],
-    imports: [
-        CommonModule,
-        MatButtonModule
-    ]
+  imports: [
+    CommonModule,
+    MatButtonModule
+  ]
 })
 export class HomeViewModule { }
