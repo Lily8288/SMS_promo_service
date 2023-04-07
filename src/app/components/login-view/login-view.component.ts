@@ -12,6 +12,6 @@ export class LoginViewComponent {
   }
 
   changePage(): void {
-   this.spsService.changePage('home');
+   this.spsService.changePage('home-view');
   }
 }

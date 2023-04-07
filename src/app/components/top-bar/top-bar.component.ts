@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import {SpsService} from "../../services/sps.service";
+import { SpsService } from "../../services/sps.service";
 
 
 @Component({

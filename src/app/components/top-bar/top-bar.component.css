@@ -1,3 +1,5 @@
+
+/* Main top bar appearance */
 .top-bar-container {
     display: flex;
     justify-content: space-between;
@@ -6,18 +8,20 @@
     color: #fff;
     height: 60px;
     padding: 0 20px;
+    position: sticky; /* This needs to have a place where it sticks. */
+    /* ! TODO: This makes it go off the screen, seemingly caused by the bar itself. It needs to be the same size as the width of the screen! */
+    width: 100%;
 }
 
-/* Define styles for the logo */
+
+/* Logo & Links */
 .logo {
     font-size: 24px;
     font-weight: bold;
     color: #fff;
     text-decoration: none;
-    /* removing the underline */
 }
 
-/* Define styles for the nav links */
 .nav-link {
     margin-left: 20px;
     text-decoration: none;
