@@ -5,12 +5,14 @@ import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { TopBarComponent } from './components/top-bar/top-bar.component';
+import { DebugColorswatchesComponent } from './components/debug-access/debug-colorswatches/debug-colorswatches.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     TopBarComponent,
+    DebugColorswatchesComponent,
   ],
   imports: [
     BrowserModule,

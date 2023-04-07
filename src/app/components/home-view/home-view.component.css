@@ -9,7 +9,8 @@ body {
 }
 
 .img-banner {
-    max-height: 500px;
+    position: relative;
+    max-height: 35vh;
     overflow: hidden;
 }
 
@@ -17,3 +18,111 @@ body {
     width: 100%;
     height: auto;
 }
+
+.banner-btm-bar {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 20px;
+    background-color: #585858;
+    color: #fff;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+/* Should we change this project to Sass? (Syntactically Awesome Style Sheets?) */
+.col-one {
+    grid-column: 1 / 2;
+}
+
+.col-one p {
+    font-size: 1.5rem;
+    line-height: normal;
+}
+
+.col-one h1 {
+    font-size: 2.2rem;
+    line-height: normal;
+    font-weight: bold;
+}
+
+.col-two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: 2 / 3;
+}
+
+/* Speech bubble test */
+.sms-bubble {
+    background-color: #ffd5b3;
+    border-radius: 18px;
+    padding: 10px 15px;
+    position: relative;
+    max-width: 50%;
+    margin: 20px auto;
+    font-size: 16px;
+    line-height: 1.4;
+}
+
+.sms-bubble::before {
+    content: "";
+    position: absolute;
+    border-style: solid;
+    border-width: 0 10px 10px 0;
+    border-color: transparent #ffd5b3 transparent transparent;
+    left: -5px;
+    top: 8px;
+}
+
+/* Cards. Please replace these with something more informative, and more colroful perhaps */
+.card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    padding: 50px;
+    margin: 20px auto;
+  }
+  
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #b6b6b6;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 1.2rem;
+    line-height: 1.4;
+    min-width: 200px;
+    max-width: 320px;
+  }
+
+  .card h2 {
+    font-size: 1.4rem;
+    margin-top: 0;
+  }
+  
+  .card p {
+    text-align: center;
+    margin-bottom: 0;
+    min-width: 200px;
+    max-width: 320px;
+  }
+  
+  .card .price {
+    display: inline-block;
+    background-color: #278863;
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 4px;
+  }
+  
